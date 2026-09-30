@@ -1,0 +1,1 @@
+- added the proper Pokémon ordered alphabetically for gens 1-6
