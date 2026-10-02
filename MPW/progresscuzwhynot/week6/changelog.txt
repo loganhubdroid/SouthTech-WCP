@@ -1,1 +1,4 @@
-- added the proper Pokémon ordered alphabetically for gens 1-6
+- added the proper Pokémon ordered alphabetically for gens 1-8 and 10 cuz why not
+- gen1 is the only one with proper h3
+- finally added a (temp) gradient to the index
+- added abra.html but its currently just an empty template

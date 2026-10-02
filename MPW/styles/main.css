@@ -1,3 +1,7 @@
-body {
-	background-color: #f4322b;
+html {
+    background-image: linear-gradient(to bottom, #3db4e7 0%, #ee6e34 100%);
+    background-attachment: fixed;
 }
+img:hover {
+    background-image: linear-gradient(to bottom, #white 0%, #red 100%);
+    background-attachment: fixed;
