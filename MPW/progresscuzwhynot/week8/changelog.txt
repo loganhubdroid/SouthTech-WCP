@@ -1,0 +1,2 @@
+- added the proper Pokémon ordered alphabetically for gen 9
+- added proper h3's to gen3
