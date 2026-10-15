@@ -1,0 +1,63 @@
+html {
+    background-image: linear-gradient(to bottom, #ff8484 0%, #863939 100%);
+    background-attachment: fixed;
+}
+nav { 
+	background-color: rgb(36, 36, 94);
+	width: 100%;
+}
+body {
+	border: solid 2px black;
+	width: 80%;
+	border-radius: 10px;
+	background-color: orange;
+	margin-left: 12em;
+}
+a {
+	color: orange;
+}
+footer {
+	border-top: solid 2px black;
+	text-align: right;
+}
+nav ul {
+	display: flex;
+	list-style-type: none; 
+}
+nav li {
+	padding: .5em 14em; 
+}
+.container {
+  display: flex;
+  gap: 540px;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+a:hover {
+	color: yellow;
+	font-size: 20px;
+}
+.john {
+	text-align: center;
+	border: solid 10px yellow;
+	margin-left: 42em;
+}
+.out {
+	margin-left: 16em;
+}
+.fish {
+	margin-left: 76em;
+}
