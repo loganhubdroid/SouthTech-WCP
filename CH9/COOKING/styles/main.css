@@ -1,0 +1,85 @@
+html {
+    background-image: linear-gradient(to bottom, rgb(175, 127, 99) 0%, rgb(150, 90, 0) 100%);
+    background-attachment: fixed;
+}
+nav { 
+	background-color: rgb(125, 125, 179);
+	width: 100%;
+}
+body {
+	border: solid 2px black;
+	width: 80%;
+	border-radius: 10px;
+	background-color: rgb(189, 116, 48);
+	margin-left: 12em;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+	border-top: solid 2px black;
+	text-align: right;
+}
+nav ul {
+	display: flex;
+	list-style-type: none; 
+	font-size: 20px;
+}
+nav li {
+	padding: .5em 17em;
+}
+header {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.order {
+	margin-left: 27%;
+}
+.welcome {
+	text-align: center;
+	border: dotted 4px black;
+	width: 50%;
+	margin-left: 400px;
+}
+.merica {
+	border: solid 4px red;
+	text-align: center;
+	width: 50%;
+	margin-left: 755px;
+}
+.euro {
+	border: solid 4px #272f90;
+	text-align: center;
+	width: 49%;
+}
+.bored {
+	border: solid 4px black;
+	background-color: purple;
+	border-radius: 40px;
+}
+.asia {
+	border: solid 4px red;
+	text-align: center;
+	width: 50%;
+	margin-left: 755px;
+}
+.afric {
+	border: solid 4px #2f704c;
+	text-align: center;
+	width: 49%;
+}
+.ocean {
+	border: solid 4px white;
+	text-align: center;
+	width: 50%;
+	margin-left: 755px;
+}
+a:hover {
+	color: red;
+	border: solid 4px rgba(128, 0, 128, 0.3);
+	border-radius: 20px
+}
+.floating {
+	margin-left: 100px;
+	border: dotted 4px black;
+}
