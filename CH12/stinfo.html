@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Student Information</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="pizza, takeout, restraunt, food">
+		<link rel="icon" href="">
+		<link rel="stylesheet" href="styles/main.css">
+		<style>
+			h1 {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Student Information</h1>
+		</header>
+		<main>
+			<form name="pizza" id="pizza" method="get" action="uh.jpg">
+				<fieldset>
+					<legend>Student Input</legend>
+					<p>Enter Student Name: <input type="text" name="customer" id="customer" placeholder="Enter Student Name" required></p>
+					<p>Enter Age: <input type="number" id="age" name="age" min="2" max="105" required></p>
+					<p>Enter Password: <input type="password" name="pw" id="pw" minlength="8" placeholder="Limit 5"></p>
+					<p>Enter Email Address: <input type="text" name="pw" id="pw" minlength="8" placeholder="Enter Email Address"></p>
+					<br>
+
+					<!--SELECT AS MANY AS YOU WANT AS LONG AS THEY ARE NOT THE SAME NAME-->
+					<p>Grade:</p>
+					<p><input type="radio" name="grade" value="freshman">Freshman</p>
+					<p><input type="radio" name="grade" value="sophomore">Sophomore</p>
+					<p><input type="radio" name="grade" value="junior">Junior</p>
+					<p><input type="radio" name="grade" value="senior">Senior</p>
+					<br>
+
+					<p>Favorite Shop Class</p>
+					<select name="size">
+						<option value="WCP">Web and Computer Programming</option>
+						<option value="CN">Cisco Networking</option>
+						<option value="GR">Graphic Design</option>
+					</select>
+
+					<!--checkboxes, can select many, unique names, either true or false-->
+					<br>
+					<p>Possible plans after high school. Select as many options as you would like:</p>
+					<p>
+						<input type="checkbox" name="plan1" value="intern">Internship Program
+						<input type="checkbox" name="plan2" value="apprenticeship">Apprenticeship Program
+						<input type="checkbox" name="plan3" value="college">Community College
+						<input type="checkbox" name="plan4" value="University">4 Year College or University
+					</p>
+					<br>
+
+					<p>Additional Information</p>
+					<textarea rows="5" cols="70"></textarea>
+					<p><input type="submit" id="submit" value="Complete"><input type="reset" id="reset" value="Clear Form"></p>
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+			<pre>&copy; Logan C Dreppard 2026</pre>
+		</footer>
+	</body>
+</html>

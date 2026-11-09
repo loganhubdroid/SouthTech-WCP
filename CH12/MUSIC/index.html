@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Funky Jams Studio</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="icon" href="">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<h1>Funky Jams Studio</h1>
+		<form name="pizza" id="pizza" method="get" action="uh.jpg">
+				<fieldset>
+					<p>Enter: <input type="text" name="name" id="name" required></p>
+					<p>Email: <input type="text" id="mail" name="email" min="2" max="105" required></p>
+
+					<!--SELECT AS MANY AS YOU WANT AS LONG AS THEY ARE THE SAME NAME-->
+					<p><input type="radio" name="crusdt" value="thin">Thin Crust</p>
+					<p><input type="radio" name="crust" value="thick">Thick Crust</p>
+					<p><input type="radio" name="crust" value="wheat">Wheat Crust</p>
+
+					<!--checkboxes, can select many, unique names, either true or false-->
+					<p>Select as many toppings as you would like. An Additional $1 per topping will be applied to your total.</p>
+					<p><input type="checkbox" name="topping1" value="pepperoni">Pepperoni</p>
+					<p><input type="checkbox" name="topping2" value="sausage">Sausage</p>
+					<p><input type="checkbox" name="topping2" value="mushroom">Mushroom</p>
+					<p><input type="checkbox" name="topping4" value="pineapple">Pineapple</p>
+
+					<!--Dropdown-->
+					<select name="size">
+						<option value="9">Small, 9" Pizza</option>
+						<option value="12">Medium, 12" Pizza</option>
+						<option value="14">Large, 14" Pizza</option>
+						<option value="16">X-Large, 16" Pizza</option>
+					</select>
+					<textarea rows="5" cols="70" placeholder="Enter Special Requests"></textarea>
+					<p><input type="submit" id="submit" value="Complete"><input type="reset" id="reset" value="Clear Form"></p>
+			</fieldset>
+		</form>
+	</body>
+</html>

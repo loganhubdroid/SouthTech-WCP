@@ -1,0 +1,85 @@
+th, td	{
+	border: 1px solid black;
+	padding: 5px;
+}
+table	{
+	border-collapse:collapse;
+	max-width: 50%;
+	margin: 0 auto;
+	border:1px solid black;
+	padding: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+caption		{
+	padding: 10px;
+}
+h1	{
+	text-align:center;
+	border: 1px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 30%;
+	margin: 0 auto;
+}
+nav	{
+	text-align:center;
+	padding: 20px;
+	background-color: #fff0de;
+}
+header		{
+	background-color: #33539c;
+	color: white;
+	padding:  20px;
+}
+*	{
+	margin: 0;
+	padding: 0;
+}
+html	{
+	background-color: #ffffff;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+h2	{
+	text-align: center;
+	padding: 20px;
+}
+.left	{
+	float:left;
+}
+.clear	{
+	clear:both;
+}
+.imagetogether	{
+	display: flex;
+	gap: 20px;
+}
+.width	{
+	width: 500px;
+}
+.width img	{
+	width: 100%;
+}
+p	{
+	text-align: center;
+	padding: 20px;
+}
+img	{
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #33539c;
+}

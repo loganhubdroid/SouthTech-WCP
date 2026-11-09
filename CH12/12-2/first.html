@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Survey</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="pizza, takeout, restraunt, food">
+		<link rel="icon" href="">
+		<link rel="stylesheet" href="styles/main.css">
+		<style>
+			p, h1 {
+				color: #0000ff;
+				font-weight: bold;
+			}
+			p, h1, h2 {
+				text-align: left;
+				margin-left: 2em;
+			}
+			form {
+				border: solid 2px #0000ff 
+			}
+			.shade {
+			    box-shadow: 3px 3px 1px #0000ff;
+				margin-bottom: 10px;
+				margin-left: 30px;
+				border: solid 2px #767676;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+		</header>
+		<main>
+			<form name="pizza" id="pizza" method="get" action="uh.jpg">
+				<h1>Please complete our survey</h1>
+				<h2>Contact Informatin</h2>
+				<p><label for="email">Email address:</label><input type="text" name="email" id="email" required></p>
+				<p><label for="first">First name:</label><input type="text" name="first" id="first" required></p>
+				<p><label for="last">Last name:</label><input type="text" name="last" id="last" required></p>
+				<br>
+
+				<h2>Geographic Information</h2>
+				<p><label for="state">State:</label><input type="text" name="state" id="state" placeholder="Two characters" required></p>
+				<p><label for="zip">Zip code:</label><input type="text" name="zip" id="zip" placeholder="Five digits" required></p>
+				<br>
+
+				<h2>How did you hear about us?</h2>
+					<p>Web Search:<input type="checkbox" name="option1" value="web"></p>
+					<p>Facebook:<input type="checkbox" name="option2" value="book"></p>
+					<p>Twitter:<input type="checkbox" name="option3" value="twitter"></p>
+					<p>Email message:<input type="checkbox" name="option4" value="email"></p>
+				<br>
+
+					<h2>That you for taking our survey!</h2>
+					<input class="shade" type="submit" id="submit" value="Complete"><input class="shade" type="reset" id="reset" value="Clear Form">
+			</form>
+		</main>
+		<footer>
+			<pre>&copy; Logan C Dreppard 2026</pre>
+		</footer>
+	</body>
+</html>

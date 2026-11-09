@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="icon" href="">
+		<link rel="stylesheet" href="styles/main.css">
+		<style>
+			label {
+				width: 10em;
+				float: left;
+				text-align: right;
+			}
+			input {
+				margin-left: 1.5em;
+			}
+			#register {
+				margin-left: 15em;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Web and Computer Programming</h1>
+		<form name="wcp" action="" method="get">
+			<p><label for="studentID">Student ID</label><input type="text" name="studentID" id="studentID" required title="3 uppercase letters followed by 4 numbers" pattern="[A-Z]{3}[1-9]{4}"></p>
+			<p><label for="email">Email Address</label><input type="email" name="email" id="email" required size="50" accesskey="e"></p>
+			<input type="submit" name="register" id="register" value="Register">
+			<input type="reset" name="clear" id="clear" value="Clear">
+		</form>
+	</body>
+</html>
