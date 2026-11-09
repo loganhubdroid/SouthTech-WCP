@@ -14,28 +14,39 @@
 				<fieldset>
 					<p>Enter: <input type="text" name="name" id="name" required></p>
 					<p>Email: <input type="text" id="mail" name="email" min="2" max="105" required></p>
-
-					<!--SELECT AS MANY AS YOU WANT AS LONG AS THEY ARE THE SAME NAME-->
-					<p><input type="radio" name="crusdt" value="thin">Thin Crust</p>
-					<p><input type="radio" name="crust" value="thick">Thick Crust</p>
-					<p><input type="radio" name="crust" value="wheat">Wheat Crust</p>
-
-					<!--checkboxes, can select many, unique names, either true or false-->
-					<p>Select as many toppings as you would like. An Additional $1 per topping will be applied to your total.</p>
-					<p><input type="checkbox" name="topping1" value="pepperoni">Pepperoni</p>
-					<p><input type="checkbox" name="topping2" value="sausage">Sausage</p>
-					<p><input type="checkbox" name="topping2" value="mushroom">Mushroom</p>
-					<p><input type="checkbox" name="topping4" value="pineapple">Pineapple</p>
-
-					<!--Dropdown-->
-					<select name="size">
-						<option value="9">Small, 9" Pizza</option>
-						<option value="12">Medium, 12" Pizza</option>
-						<option value="14">Large, 14" Pizza</option>
-						<option value="16">X-Large, 16" Pizza</option>
+					<p>Do you Listen to music?</p>
+					<select name="listen">
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
 					</select>
-					<textarea rows="5" cols="70" placeholder="Enter Special Requests"></textarea>
-					<p><input type="submit" id="submit" value="Complete"><input type="reset" id="reset" value="Clear Form"></p>
+					<br>
+
+					<br>
+					<p>What types of music do you prefer?</p>
+					<p><input type="checkbox" name="music1" value="jazz">Jazz</p>
+					<p><input type="checkbox" name="music2" value="rock">Rock</p>
+					<p><input type="checkbox" name="music3" value="pop">Pop</p>
+					<p><input type="checkbox" name="music4" value="easy">Easy Listener</p>
+					<p><input type="checkbox" name="music5" value="country">Country</p>
+					<br>
+
+					<p>When are you most likely to listen to music?</p>
+					<p><input type="radio" name="when" value="car">In the car</p>
+					<p><input type="radio" name="when" value="exer">While exercising</p>
+					<p><input type="radio" name="when" value="school">At School</p>
+					<p><input type="radio" name="when" value="meal">During meals</p>
+					<p><input type="radio" name="when" value="all">All day long</p>
+					<br>
+
+					<p>What device do you use to listen to music?</p>
+					<p><input type="checkbox" name="dev1" value="rad">Radio/Stereo</p>
+					<p><input type="checkbox" name="dev2" value="phone">Phone</p>
+					<p><input type="checkbox" name="dev3" value="com">Computer</p>
+					<p><input type="checkbox" name="dev4" value="mp3">MP3 Player</p>
+					<p><input type="checkbox" name="dev5" value="other">Other Devices</p>
+
+					<textarea rows="5" cols="70" placeholder="Additional Comments"></textarea>
+					<p><input type="submit" id="submit" value="Complete"><input type="reset" id="reset" value="Reset"></p>
 			</fieldset>
 		</form>
 	</body>

@@ -20,33 +20,41 @@
 		<main>
 			<form name="pizza" id="pizza" method="get" action="../uh.jpg">
 				<fieldset>
-					<legend>Customer Information</legend>
-					<p>Enter Customer Name: <input type="text" name customer="customer" id="customer" placeholder="Enter Customer Name" required></p>
-					<p>Enter Age: <input type="number" id="age" name="age" min="2" max="105" required></p>
-					<p>Enter Password: <input type="password" name="pw" id="pw" minlength="8"></p>
-					<p><input type="submit" id="submit" value="Complete"></p>
+					<legend>Art Club Application</legend>
+					<p>First Name<input type="text" name customer="customer" id="customer" placeholder="Enter First Name" required></p>
+					<p>Last Name<input type="text" id="age" name="age" min="2" max="105" placeholder="Enter Last Name" required></p>
+					<p>Email Address<input type="text" name="pw" id="pw" minlength="8" placeholder="Enter Email" required></p>
+					<br>
 
 					<!--SELECT AS MANY AS YOU WANT AS LONG AS THEY ARE THE SAME NAME-->
-					<p><input type="radio" name="crusdt" value="thin">Thin Crust</p>
-					<p><input type="radio" name="crust" value="thick">Thick Crust</p>
-					<p><input type="radio" name="crust" value="wheat">Wheat Crust</p>
+					<p>Please select your grade level</p>
+					<p><input type="radio" name="grade" value="freshman" required>Freshman year</p>
+					<p><input type="radio" name="grade" value="sophomore" required>Sophomore Year</p>
+					<p><input type="radio" name="grade" value="junior" required>Junior Year</p>
+					<p><input type="radio" name="grade" value="senior">Senior Year</p>
+					<br>
 
 					<!--checkboxes, can select many, unique names, either true or false-->
-					<p>Select as many toppings as you would like. An Additional $1 per topping will be applied to your total.</p>
-					<p><input type="checkbox" name="topping1" value="pepperoni">Pepperoni</p>
-					<p><input type="checkbox" name="topping2" value="sausage">Sausage</p>
-					<p><input type="checkbox" name="topping2" value="mushroom">Mushroom</p>
-					<p><input type="checkbox" name="topping4" value="pineapple">Pineapple</p>
+					<p>Select as many Interests that you want :D</p>
+					<p><input type="checkbox" name="interest1" value="draw" >Drawing</p>
+					<p><input type="checkbox" name="interest2" value="music">Composing</p>
+					<p><input type="checkbox" name="interest3" value="read">Reading</p>
+					<p><input type="checkbox" name="interest4" value="paint">Painting</p>
+					<br>
 
 					<!--Dropdown-->
-					<select name="size">
-						<option value="9">Small, 9" Pizza</option>
-						<option value="12">Medium, 12" Pizza</option>
-						<option value="14">Large, 14" Pizza</option>
-						<option value="16">X-Large, 16" Pizza</option>
+					<p>Please select which school you currently attend</p>
+					<select name="school">
+						<option value="ohs">Oakville High School</option>
+						<option value="lhs">Lindbergh High School</option>
+						<option value="pws">Parkway South High School</option>
+						<option value="hhs">Hancock High School</option>
 					</select>
-					<textarea rows="5" cols="70" placeholder="Enter Special Requests"></textarea>
-					<p><input type="reset" id="reset" value="Clear Form"></p>
+					<br>
+
+					<p>Comments or Additional Informations</p>
+					<textarea rows="5" cols="70" placeholder="Comments or Additional Informations"></textarea>
+					<p><input type="reset" id="reset" value="Clear Form"><input type="submit" id="submit" value="Complete"></p>
 				</fieldset>
 			</form>
 		</main>
