@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>New Life | Home</title>
+			<meta charset="UTF-8">
+			<meta name="description" content="">
+			<meta name="keywords" content="">
+			<link rel="icon" href="images/favicon.png">
+			<link rel="stylesheet" href="styles/main.css">
+			<style>
+			p	{
+				width: 100%;
+			}
+			</style>
+		</head>
+		<body>
+			<header>
+			<a href="index.html"><img class="left" src="images/icon.png" alt="favicon" height="70"></a>
+				<h1>New Life</h1>
+			<nav>
+				<a href="index.html">Home</a> 	|
+				<a href="pets.html">Our Pets</a> 	|
+				<a href="apply.html">Apply Here</a>
+			</nav>
+			</header>
+			<main>
+				<h2>Adoption Application</h2>
+					<form name="adopt" id="adopt" method="get">
+				<fieldset>
+					<legend>Customer Information</legend><br>
+					<p>First Name: <input type="text" name="firstname" id="firstname" required></p>
+					<p>Last Name: <input type="text" name="lastname" id="lastname" required></p>
+					<p>Enter Date of Birth: <input type="text" id="age" name="age" required></p>
+					<p>Address: <input type="text" name="lastname" id="lastname" required></p><br>
+
+
+					<!--SELECT AS MANY AS YOU WANT AS LONG AS THEY ARE THE SAME NAME-->
+					<p><b>Do you own/rent your home, live with family, or reside in the military/other housing?</b></p><br>
+					<p><input type="radio" name="home" value="own">Own</p>
+					<p><input type="radio" name="home" value="rent">Rent</p>
+					<p><input type="radio" name="home" value="family">Live with family</p>
+					<p><input type="radio" name="home" value="military">Reside in military</p>
+					<p><input type="radio" name="home" value="other">Other</p><br>
+					
+					<p><b>If selected other, please list below</b></p><br>
+					<textarea rows="3" cols="50"></textarea><br><br>
+					
+					<!--Dropdown-->
+					<p><b>Please select down below which animal you would like to adopt.<b></p><br>
+					<select name="size">
+						<option value="felix">2 Year Old Felix M Dog</option>
+						<option value="noodles"> 4 Year Old Noodles M Cat</option>
+						<option value="midnight">6 Year Old Midnight F Cat</option>
+						<option value="ava">2 Year Old Ava F Dog</option>
+						<option value="cocoa">8 Year Old Cocoa M Dog</option>
+					</select><br><br>
+						
+						<button type="submit" class="submit">Submit</button>
+						<button type="reset" class="reset">Reset</button>
+						
+					</select>
+				</fieldset>
+			</form>
+			</main>
+			<footer>
+		
+			</footer>
+		</body>
+	</html>
